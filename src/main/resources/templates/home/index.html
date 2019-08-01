@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="">
+    <meta name="author" content="O. Kalu">
+    <link rel="icon" href="favicon.ico">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/cerulean/bootstrap.min.css" rel="stylesheet" integrity="sha384-EmRcsPP774S9MOi4ywB+JXUWjYnBdyInMzG2XsC5siZEUpexqxOMJW358dCYEjPu" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/master.css}">
+    <title>Thi Nhat Van Le's eRegistrar - a demo spring boot webapp</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <a style="padding-right: 2em;" class="navbar-brand" href="/eRegistrar/home">Thi Nhat Van Le's eRegistrar : : : a basic demo webapp using Spring Boot</a>
+        <!--<span style="color: #ffffff;"> &nbsp; | &nbsp;</span>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        
+    </nav>
+
+    <p>&nbsp;</p>
+    <div class="container">
+        <h3>Welcome to the eRegistrar Management system (eRMS)</h3>
+        <hr/>
+        
+        <h5>Next Course Offerings</h5>
+        <div style="font-size: 1em">
+            For information on course offerings please see: Course offering info
+			If you have any questions about this system or about courses you should contact your academic adviser. (To find your academic adviser log into InfoSys and go to the Faculty Advisors link.)
+        </div>
+        <hr/>
+        
+        <h5>Course Selection Explanation</h5>
+        <div style="font-size: 1em">
+            This course selection system is for MSCS students in the Computer Professionals track. At some point during the MPP course students will use this system to enter their preferences for the rest of their on-campus courses.
+			Assignment to classes will be according to
+			<ul>
+				<li>student preference</li>
+				<li>registration number (low to high for first and fourth blocks and high to low for second and third blocks)</li>
+			</ul>			
+
+			Students must do the following
+			<ul>
+				<li>get all waivers, transfers and prerequisites approved before registering preferences</li>
+				<li>enter preferences for different course offerings</li>
+			</ul>
+        </div>
+        <hr/>
+        
+        <h5>Waivers and transfers</h5>
+        <div style="font-size: 1em">
+            Students will not be assigned to any on-campus courses that they have waived (or transferred).
+			<ul>
+				<li>All waivers must be approved BEFORE preferences are entered and classes are assigned.</li>
+				<li>You may waive a course if you have taken a commensurate course at another university. This must be approved by your faculty adviser or a faculty member who teaches the course.</li>
+				<li>You may "transfer" a course if you have taken a commensurate course for graduate credit an another university and have not used those credits towards another degree. These credits can count towards your MUM MSCS degree. You can transfer up to two courses.</li>
+			</ul>
+        </div>
+        <hr/>
+        
+        <button>Login here</button>
+    </div>
+
+<!--     <footer class="footer">
+        <div class="container">
+            <span class="text-muted">O. Kalu : : : CS425-SWE</span><span style="float:right;" class="text-muted">&copy; November 2018</span>
+        </div>
+    </footer> -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+</body>
+</html>
